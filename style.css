@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -25,11 +26,28 @@ overflow-x: hidden;
 nav {
     overflow-x: hidden;
     background-color: #fff;
-    /* height: 60px; */
 }
 .main-content{
-    background-color: red;
+    background-color: #F5F6FA;
     overflow-x: hidden;
-   /* height: calc(100vh - 60px); */
-
+    
 }
+
+/* Target the first row */
+.table tbody tr:first-child {
+    background-color: #0d85fd; /* Example: light background for the first row */
+    border-radius: 20px;
+}
+
+/* Target the last row */
+.table tbody tr:last-child {
+    color: red; /* Example: light background for the last row */
+}
+
+
+
+/* @media (max-width: 600px){
+    .sidebar-section{
+        display: none;
+    }
+} */
